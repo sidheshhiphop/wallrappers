@@ -26,7 +26,7 @@ function ContactUs() {
                   
                 </div>
                 
-                <a href="whatsapp://send?phone=8946048815" class="grow ml-6">
+                <a href="whatsapp://send?phone=+918946048815" class="grow ml-6">
                   <p class="font-bold mb-1">Whatsapp</p>
                   <p class="text-gray-500">8946048815</p>
                   
