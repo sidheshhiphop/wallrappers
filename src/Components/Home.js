@@ -6,6 +6,7 @@ import SidheshHipHop from "../Assets/SidheshHipHop.webp"
 import Nelson from "../Assets/Nelson.jpg"
 import Joe from "../Assets/Joe.jpg"
 import Bala from "../Assets/Bala.png"
+import ReactPlayer from 'react-player';
 function Home() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -17,7 +18,7 @@ function Home() {
     <div>
         <div class="h-full">
         <section class="text-black body-font lg:pt-20">
-      <div class="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
+      <div class="container px-5 lg:pt-32 pt-6 mx-auto lg:px-4 lg:py-4">
         <div class="flex flex-col w-full mb-2 text-left md:text-center ">
           <h1 class="mb-2 text-2xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
             <span>Hip-hop is the streets, </span>
@@ -34,7 +35,7 @@ function Home() {
           </p>
         </div>
       </div>
-      <div class="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
+      <div class="container flex flex-col items-center justify-center lg:py-8 mx-auto rounded-lg md:p-1 p-3">
         <img
           class="object-cover object-center w-full h-96 mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
           alt="hero"
@@ -43,11 +44,11 @@ function Home() {
       </div>
       <section class="text-gray-600 body-font">
         <section class="text-gray-600 body-font">
-          <div class="container px-5 py-10 mx-auto">
+          <div class="container px-5 lg:py-10  mx-auto"> 
             <div class="flex flex-wrap -m-4 text-center">
               <div class="p-4 sm:w-1/3 w-1/2">
                 <h2 class="title-font font-medium sm:text-5xl text-3xl text-black">
-                  <CountUp end={940} redraw={true}>
+                  <CountUp end={10698 } redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
@@ -57,9 +58,21 @@ function Home() {
                 </h2>
                 <p class="leading-relaxed">Viewers</p>
               </div>
+       <div class="p-4 sm:w-1/3 w-1/2">
+                <h2 class="title-font font-medium sm:text-5xl text-3xl text-black">
+                  <CountUp end={9} redraw={true}>
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+                <p class="leading-relaxed">Videos</p>
+              </div>       
               <div class="p-4 sm:w-1/3 w-1/2">
                 <h2 class="title-font font-medium sm:text-5xl text-3xl text-black">
-                  <CountUp end={740} redraw={true}>
+                  <CountUp end={896} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
@@ -67,36 +80,27 @@ function Home() {
                     )}
                   </CountUp>
                 </h2>
-                <p class="leading-relaxed">Subscribes</p>
+                <p class="leading-relaxed">Subscribers</p>
               </div>
-              <div class="p-4 sm:w-1/3 w-1/2">
-                <h2 class="title-font font-medium sm:text-4xl text-3xl text-black">
-                  <CountUp end={315} redraw={true}>
-                    {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
-                        <span ref={countUpRef} />
-                      </VisibilitySensor>
-                    )}
-                  </CountUp>
-                </h2>
-                <p class="leading-relaxed">Downloads</p>
-              </div>
+              
             </div>
           </div>
         </section>
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="container px-5 lg:py-24 pt-12 mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img
-              alt="feature"
-              class="object-cover object-center h-full w-full"
-              src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            ></img>
+           <div  class="lg:h-full h-60 ">
+        <ReactPlayer
+          url="https://youtu.be/Zhlt03wb-Bk"
+          className="react-player"
+          playing={false}
+          width="100%"
+          height="100%"
+        />
+      </div>
           </div>
-          <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+          <div class="flex flex-col flex-wrap lg:py-6  -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div class="flex flex-col mb-10 lg:items-start items-center">
               <div class="flex-grow">
-            
-               
               </div>
             </div>
            
@@ -138,7 +142,7 @@ function Home() {
             <div class="flex mt-6 justify-center">
               <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
             </div>
-            <div class="container px-5 py-16 mx-auto">
+            <div class="container lg:px-5 lg:py-16 mx-auto">
             <Carousel breakPoints={breakPoints}>
           <div> <div class="p-4 lg:full md:w-full">
                   <div class="h-full flex flex-col items-center text-center">

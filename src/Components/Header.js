@@ -75,7 +75,7 @@ function Header() {
                                 <a href="javascript:void(0)" onClick={handleHome}>Home</a>
                             </li>
                             <li className="text-gray-600 cursor-pointer hover:text-blue-600">
-                                <a href="javascript:void(0)" onClick={Blog}>Blog</a>
+                                <a href="javascript:void(0)" onClick={Blog}>Songs</a>
                             </li>
                             <li className="text-gray-600 cursor-pointer hover:text-blue-600">
                                 <a onClick={handleAbout}>About US</a>
