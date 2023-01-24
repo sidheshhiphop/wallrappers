@@ -19,8 +19,14 @@ function Footer() {
                     <li class="mb-4">
                         <a href="https://flowbite.com/" class="hover:underline">Wall Rappers</a>
                     </li>
+                    <li class="mb-4">
+                        <a href="/blog" class="hover:underline">Songs</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="/blog" class="hover:underline">Upcoming</a>
+                    </li>
                     <li>
-                        <a href="https://tailwindcss.com/" class="hover:underline">Blog</a>
+                        <a href="/contactUs" class="hover:underline">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -28,10 +34,10 @@ function Footer() {
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                 <ul class="text-gray-600 dark:text-gray-400">
                     <li class="mb-4">
-                        <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Instagram</a>
+                        <a href="https://www.instagram.com/wall_rappers/" class="hover:underline ">Instagram</a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Youtube</a>
+                        <a href="https://www.youtube.com/@wallrappers1114/videos" class="hover:underline">Youtube</a>
                     </li>
                 </ul>
             </div>

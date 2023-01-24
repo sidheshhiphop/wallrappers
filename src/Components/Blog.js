@@ -45,17 +45,17 @@ function Blog() {
 ]
   return (
     <div>
-      <div class="grid lg:grid-cols-2 grid-cols-1 gap-14 h-full p-5">
+      <div class="grid lg:grid-cols-2  grid-cols-1  gap-14 h-full p-5">
         
   {
     data.map((val) =>(
       
-      <div class="lg:h-96 h-full  bg-black" key={val.id}>
+      <div class="lg:h-96 h-full  bg-pink-800 "  key={val.id}>
     
-        <div class="font-bold text-white align-middle text-2xl flex justify-center ">{val.name}</div>
+        <div class="font-bold h-fit text-white align-middle text-2xl flex justify-center ">{val.name}</div>
       <ReactPlayer
           url={val.url}
-          className="react-player"
+          class="rounded-lg"
           playing={false}
           width="100%"
           height="100%"
