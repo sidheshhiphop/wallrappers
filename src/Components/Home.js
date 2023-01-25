@@ -28,13 +28,11 @@ useEffect(() => { vidRef.current.play(); },[]);
         <section class="text-black body-font lg:pt-14">
       <motion.div  class="container  px-5 lg:pt-2 pt-6 mx-auto lg:px-4 lg:py-4">
         <div class="flex flex-col w-full mb-2 text-left md:text-center ">
-          <motion.h1 initial={{x:-100}} transition={{duration:0.5}} animate={{x:0}} class="mb-2 text-2xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
-            <span>Hip-hop is the streets, </span>
-            <br class="hidden lg:block"></br>
-            Good music = good vibes!
+          <motion.h1 initial={{x:-100}} transition={{duration:0.5}} animate={{x:0}} class="mb-2 text-xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
+           Independent தமிழ் Hip-Hop Revolution
           </motion.h1>
           <br></br>
-          <motion.p initial={{x:100}} transition={{duration:0.5}} animate={{x:0}} class="mx-auto  text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
+          <motion.p initial={{x:100}} transition={{duration:0.5}} animate={{x:0}} class="mx-auto  text-sm lg:text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
           Wall Rappers, is a South Indian band formed in 2019. The band consists of Sidhesh Hip Hop, Joe Stefiel, Bala Logesh, Monica Chandrasekar, Dinesh Karuppaiyan, Nithish Pandiyaraj, Nelson Manning, Vicky , Bruno and Sanjeevi, who co-write and co-produce the majority of their material.
             {/* <a href="https://nextjs.org/" className="underline">
               Next.js

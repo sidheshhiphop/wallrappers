@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
-
+import ReactPlayer from 'react-player' 
+import { motion } from 'framer-motion'
 function Blog() {
   const data = [{
    id:1,
@@ -50,7 +50,7 @@ function Blog() {
   {
     data.map((val) =>(
       
-      <div class="lg:h-96 h-full  bg-pink-800 "  key={val.id}>
+      <motion.div  whileHover={{ scale: 1.05 }} class="lg:h-96 h-full  bg-pink-800 "  key={val.id}>
     
         <div class="font-bold h-fit text-white align-middle text-2xl flex justify-center ">{val.name}</div>
       <ReactPlayer
@@ -60,7 +60,7 @@ function Blog() {
           width="100%"
           height="100%"
         />
-      </div>
+      </motion.div>
     )
     )
   }

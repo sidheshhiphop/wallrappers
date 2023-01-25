@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div class="h-full p-2 ">
+    <div class="h-full p-20 ">
         <section class=" text-gray-800">
     
     <div class="block rounded-lg shadow-lg bg-white">
