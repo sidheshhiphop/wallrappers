@@ -398,7 +398,7 @@ useEffect(() => { vidRef.current.play(); },[]);
                     ></img>
                     <div class="w-full">
                       <h2 class="title-font font-medium text-lg text-black">
-                        Bala Logesh
+                        Monica
                       </h2>
                       <h3 class="text-gray-500 mb-3">Singer/Lyricist</h3>
                       <span class="inline-flex">
