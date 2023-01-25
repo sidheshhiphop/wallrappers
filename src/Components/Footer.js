@@ -53,7 +53,7 @@ function Footer() {
     </div>
   </div>
 
-  <div class="text-center text-gray-700 p-4 pr-16" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+  <div class="text-center text-gray-700 p-4 pr-0 lg:pr-16" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
     © 2023 Copyright:
     <a class="text-gray-800" href="https://wallrappers.netlify.app/">Wall Rappers  </a>
   </div>
